@@ -1,3 +1,5 @@
+import './Pokecard.css'
+
 
 export default function Pokecard(props) {
   const {id, name, type, base_experience} = props;
@@ -12,9 +14,9 @@ export default function Pokecard(props) {
   return (
     <div>
       <h1>{name}</h1>
-      <img src={formatURL(id)}/>
-      <p>Type: {type}</p>
-      <p>EXP: {base_experience}</p>
+      <img src={formatURL(id)} alt={name}/>
+      <div>Type: {type}</div>
+      <div>EXP: {base_experience}</div> 
     </div>
   );
 }
