@@ -18,7 +18,9 @@ export default function Pokedex() {
   return (
     <div className="Pokedex">
       <h1>Pokedex</h1>
-      {pokemons}
+      <div className="Pokedex-cards">
+        {pokemons}
+      </div>
     </div>
   );
 }

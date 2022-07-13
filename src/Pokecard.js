@@ -12,11 +12,11 @@ export default function Pokecard(props) {
     return `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${id}.png`
   }
   return (
-    <div>
-      <h2>{name}</h2>
+    <div className="Pokecard">
+      <h2 className="Pokecard-title">{name}</h2>
       <img src={formatURL(id)} alt={name}/>
-      <div>Type: {type}</div>
-      <div>EXP: {base_experience}</div> 
+      <div className="Pokecard-data">Type: {type}</div>
+      <div className="Pokecard-data">EXP: {base_experience}</div> 
     </div>
   );
 }
