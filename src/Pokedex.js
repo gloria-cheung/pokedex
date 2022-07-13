@@ -9,6 +9,8 @@ export default function Pokedex(props) {
   return (
     <div className="Pokedex">
       <h1>Pokedex</h1>
+      <p>Total Experience: {props.exp}</p>
+      <p>{props.isWinner ? "WINNER!" : "LOSER"}</p>
       <div className="Pokedex-cards">
         {pokemons}
       </div>
