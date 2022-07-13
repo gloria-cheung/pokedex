@@ -1,5 +1,4 @@
 import Pokedex from './Pokedex';
-import './Pokegame.css'
 
 export default function Pokegame() {
   const pokemonData = [
