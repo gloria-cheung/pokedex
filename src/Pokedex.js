@@ -16,7 +16,8 @@ export default function Pokedex() {
     return <Pokecard {...pokemon} key={pokemon.id}/>;
   })
   return (
-    <div>
+    <div className="Pokedex">
+      <h1>Pokedex</h1>
       {pokemons}
     </div>
   );

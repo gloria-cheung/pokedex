@@ -13,7 +13,7 @@ export default function Pokecard(props) {
   }
   return (
     <div>
-      <h1>{name}</h1>
+      <h2>{name}</h2>
       <img src={formatURL(id)} alt={name}/>
       <div>Type: {type}</div>
       <div>EXP: {base_experience}</div> 
