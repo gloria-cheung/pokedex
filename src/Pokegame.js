@@ -12,6 +12,7 @@ export default function Pokegame() {
     {id: 94, name: 'Gengar', type: 'poison', base_experience: 225},
     {id: 133, name: 'Eevee', type: 'normal', base_experience: 65}
   ]; 
+  
   const hand1 = [];
   const hand2 = [...pokemonData]
   while (hand1.length < hand2.length) {
